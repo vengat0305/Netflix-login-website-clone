@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+:root{
+  --clr-red:#e50914;
+  --clr-white:#fff;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.netflix-container{
+  background-color: black;
+
+}
+
+.netflix-logo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  width: 14rem;
+  margin-left: -5px;
+}
+
+.card-container{
+  background-color: black;
+  border-bottom: 1.8px solid #515151;
+  padding: 0.2rem 0rem;
+}
+
+.card-tittle{
+  font-size: 2.01rem;
+  font-weight: 600;
+  font-family: 'Inter';
+  color: #fff;
+  margin-left: 1.5rem;
+}
+
+.card-cta-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  gap: 1rem;
+
+}
+
+.email-phone{
+  width: 29rem;
+  height: 3rem;
+  padding-left: 15px;
+  font-size: 15px;
+  background-color: #3d3b3b;
+  border-radius: 6px;
+  border-color:#3d3b3b;
+  margin-left: 1rem;
+  opacity: 0.9;
+}
+.Password{
+  width: 29rem;
+  height: 3rem;
+  padding-left: 15px;
+  font-size: 15px;
+  background-color: #3d3b3b;
+  border-radius: 6px;
+  border-color:#3d3b3b;
+  margin-left: 1rem;
+  opacity: 0.9;
+}
+
+.button-container{
+  width: 29rem;
+  height: 3.2rem;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2.4rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  /* customize */
+  background-color: #e50914;
+  color: white;
+  border: 2px solid #e50914;
+}
+
+.check-box{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
+.box{
+  width: 4rem;
+  height: 1.1rem;
+  margin-top: 0.1rem;
+}
+
+.check-detail{
+  color: #515151;
+  margin-left: -14rem;
+}
+
+.help{
+  margin-right: 2rem;
+  color: #515151;
+}
+
+.details-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+  
+.Update{
+  color: #515151;
+  margin-left: 1.2rem;
+  margin-top: 3rem;
+}
+
+.sign-up{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -1.2rem ;
+  margin-left: 9rem;
+}
+
+.paragraph-container{
+  color: #515151;
+  font-size: 14px;
+  margin-left: 1rem;
+  font-weight: 400;
+  margin-top: 1rem ;
+  margin-bottom: 5rem ;
+}
+
+.footer-divider{
+  margin-top: 2rem;
+}
+
+.footer-emergency{
+  color: #515151;
+  margin-left: 1rem;
+}
+
+.footer{
+  color: #515151;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 15px;
+  margin-left: 0.4rem; 
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.lists {
+  color: #515151;
+}
+
+.footer-select{
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  padding: 8px;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3px;
+  color: #fff;
+  background-color: black;
+  border-color: #595959;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+    .netflix-container{
+      background-image: url(/images/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    padding: 2px;
+    width: 28rem;
+    height: 38rem;
+    margin-left: 33rem;
+    border-bottom: none;
+    opacity: 0.9;
+    
+  }
+
+  .card-tittle{
+    margin-top: -5rem;
+    margin-left: -15rem;
+    margin-top:5rem;
+  }
+
+  .email-phone{
+    width: 20rem;
+    margin-left: -2rem;
+  }
+  .Password{
+    width: 20rem;
+    margin-left: -2rem;
+  }
+  .button-container{
+    width: 20rem;
+    margin-left: -2rem;
+  }
+  .check-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: -2rem;
+  }
+  .check-detail{
+    margin-left: -1rem;
+  }
+  .help{
+    margin-left: 5rem;
+  }
+.details-container{
+  margin-left: 2rem;
+}
+.paragraph-container{
+  align-items: flex-start;
+  line-height: 1.5rem;
+}
+.footer-details-list{
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.footer-emergency{
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+.lists{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 4rem;
+}
+
+.footer-select{
+  margin-left: 5rem;
+  margin-top: -2rem;
+}
+
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
